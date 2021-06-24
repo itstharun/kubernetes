@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: simpejava.com
+  labels:
+    app: simplejava
+spec:
+  containers:
+  - name: simple-java
+    image: itstharun/sample-maven:tagname
+    ports:
+    - name: java-port
+      containerPort: 3000
