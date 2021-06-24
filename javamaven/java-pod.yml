@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: simple-java
-    image: itstharun/sample-maven:tagname
+    image: itstharun/sample-maven:version1
     ports:
     - name: java-port
       containerPort: 3000
