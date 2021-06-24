@@ -2,10 +2,10 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: task-pv-pod
-specs:
+spec:
   volumes:
     - name: task-pv-storage
-      persistentVolumeClaim: 
+      persistentVolumeClaim:
         claimName: task-pv-claim
   containers:
     - name: task-pv-container
