@@ -1,11 +1,11 @@
-apiversion: v1
-kind: persistentVolume
+apiVersion: v1
+kind: PersistentVolume
 metadata:
   name: task-pv-volume
   labels:
     type: local
-specs:
-  storageClassname: manual
+spec:
+  storageClassName: manual
   capacity:
     storage: 10Gi
   accessModes:
